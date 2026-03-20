@@ -6,6 +6,7 @@ class Empleado {
         this.salario = salario;
         this.activo = true;
     }
+    
 
     presentarse() {
         return `Hola, soy ${this.nombre} y trabajo como ${this.cargo}.`;
